@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+
+body{
+    margin:0px;
+    background-color:black;
+    color:white;
+}
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color:maroon;
+}
+.navbar-left{
+    padding:1px;
+
+}
+.logo-size{
+    height:100px;
+    width:100px;
+}
+.navbar-right{
+    padding-right:5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.element{
+    padding:10px;
+    font-family:"Roboto";
+    font-size:15px;
+    font-weight:bold;
+
+}
+.home{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    height:80vh;
+}
+    
+.home-left{
+    width:50vw;
+    text-align:right;
+   padding-left:20px;
+    
+}
+.home-right{
+    width:50vw;
+   padding-right:20px;
+   text-align:center;
+    
+    
+}
+.img-size{
+    height:20vw;
+    width:20vw;
+    margin-top:25px;
+}
+.home-h1{
+  font-family: 'Fira Code', monospace;
+  font-size:25px;
+}
+.home-p{
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size:12px;
+}
+.services{
+    padding:20px;
+    text-align:center;
+}
+.ser-heading{
+    font-family: 'Caveat', cursive;
+    font-size:30px;
+    color:#c9ea1a;
+    letter-spacing:1px;
+    font-style:italic;
+}
+.services-sub-con{
+    display:flex;
+    flex-direction:row;
+    
+}
+.services-card{
+   border:2px #27b8e6 solid;
+   margin:20px;
+   padding:20px;
+   width:500px;
+  
+}
+.services-card-heading{
+ font-family: 'Fira Code', monospace;
+  font-size:20px;
+  color:#f66844;
+}
+
+.services-card-para{
+    font-family:"sans-serif";
+    font-size:12px;
+}
+.textcolor{
+    color:#f644dc;
+    font-size:15px;
+}
+.contact{
+    text-align:center;
+}
+.contact-info{
+ font-family: 'Caveat', cursive;   
+}
+.social-icon-img{
+    height:50px;
+    padding:5px;
+}
